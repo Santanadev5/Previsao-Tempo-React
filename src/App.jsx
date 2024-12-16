@@ -3,7 +3,7 @@ import axios from 'axios'
 
 import './App.css'
 import WeatherInformations from './components/weatherinformations/weatherinformations'
-import WeatherInformations5Days from './WeatherInformations5Days/WeatherInformations5Days'
+import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformations5Days'
 
 function App() {
   const [weather, setWeather] = useState()
@@ -21,6 +21,7 @@ function App() {
     const apiInfo5Days =  await axios.get(url5Days)
 
     setWeather (apiInfo.data)
+    setWeather5Days(apiInfo5Days.data)
   }
 
   return (
