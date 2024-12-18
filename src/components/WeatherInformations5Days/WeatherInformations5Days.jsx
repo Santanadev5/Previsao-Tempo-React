@@ -35,10 +35,10 @@ return (
     {next5DaysForecast.map(forecast =>(
 
       <div key ={forecast.dt} className='weather-item'>
-        <p>{convertDate(forecast)}</p>
+        <p className='forecast-day'>{convertDate(forecast)}</p>
         <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`}/>
-        <p>{forecast.weather[0].descripition}</p>
-        <p>{Math.round (forecast.main.temp_min) }C° min / {Math.round (forecast.main.temp_max )}C° máx</p>
+        <p className='forecast-descripition'>{forecast.weather[0].descripition}</p>
+        <p>{Math.round (forecast.main.temp_min) } C°min / {Math.round (forecast.main.temp_max )} C°máx</p>
       </div>
 
     ))}
