@@ -30,10 +30,11 @@ return (
 
   <div className='weather-container'>
 
-  <p>Previsão Próximos 5 Dias</p>
+  <h3>Previsão Próximos 5 Dias</h3>
+  <div className='weather-list'>
     {next5DaysForecast.map(forecast =>(
 
-      <div key ={forecast.dt}>
+      <div key ={forecast.dt} className='weather-item'>
         <p>{convertDate(forecast)}</p>
         <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}.png`}/>
         <p>{forecast.weather[0].descripition}</p>
@@ -41,6 +42,9 @@ return (
       </div>
 
     ))}
+
+  </div>
+
   </div>
 
 )
