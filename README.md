@@ -1,8 +1,26 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Projeto Previsão do Tempo
 
-Currently, two official plugins are available:
+![Previsao-Tempo](https://github.com/user-attachments/assets/523c0816-9640-4f19-bf10-8527b8e50116)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+</div>
+
+## 🚀 **Tecnologias**
+- React JS  
+- Javascript  
+- API
+
+## 📚 **Bibliotecas**
+- Axios  
+- Styled-components  
+
+---
+
+<div align="center">
+
+### **Projeto Finalizado !**
+
+</div>
+
