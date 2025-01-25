@@ -9,12 +9,12 @@
 
 ## 🚀 **Tecnologias**
 - React JS  
-- Javascript  
+- JavaScript  
 - API
+- Vite
 
-## 📚 **Bibliotecas**
-- Axios  
-- Styled-components  
+## 💻 **Projeto**
+Esta é uma aplicação construída em React e JavaScript, que utiliza uma API para exibir informações climáticas atualizadas de qualquer cidade para um período de 5 dias. 
 
 ---
 
