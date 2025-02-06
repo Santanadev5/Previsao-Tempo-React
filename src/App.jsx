@@ -2,8 +2,8 @@ import { useState, useRef } from 'react'
 import axios from 'axios'
 
 import './App.css'
-import WeatherInformations from './components/weatherinformations/weatherinformations'
-import WeatherInformations5Days from './components/WeatherInformations5Days/WeatherInformations5Days'
+import WeatherInformations from './components/weatherInformations/weatherinformations'
+import WeatherInformations5Days from './components/weatherInformations5Days/WeatherInformations5Days'
 
 function App() {
   const [weather, setWeather] = useState()
